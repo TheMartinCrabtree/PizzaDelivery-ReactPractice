@@ -20,6 +20,8 @@ class PizzaList extends Component {
 				<th scope="col">Edit</th>
 			</tr>
 			</thead>
+			<article>testing the react article attribute</article>
+			<details>testing the react details attribute</details>
 			<tbody>
 			
 				{this.props.allPizzaData.map((singlepizza)=>this.maptoPizzaComponent(singlepizza))}
